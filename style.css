@@ -1,1 +1,13 @@
-/* nothing here either lol*/
+/* ref do anything */
+/* the . symbol means it's targeting a class(group of elements) */
+.map {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.room {
+    border: 2px solid black;
+    padding: 50px;
+    text-align: center;
+}
