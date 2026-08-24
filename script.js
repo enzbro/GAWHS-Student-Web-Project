@@ -40,6 +40,8 @@ map.addEventListener("click", function (event) {
     }
 });
 
+//i made changes here too!
+
 //op function
 function displayRoomInfo(roomId) {
     const room = roomData[roomId];
