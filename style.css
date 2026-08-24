@@ -1,13 +1,61 @@
 /* ref do anything */
-/* the . symbol means it's targeting a class(group of elements) */
-.map {
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#map {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: 2fr 2fr;
+    gap: 5px;
+    width: 300px;
+    margin: auto;
 }
 
 .room {
     border: 2px solid black;
-    padding: 50px;
+    padding: 40px;
+    height: 100px;
     text-align: center;
+    margin: auto;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333337;
+}
+
+.nav-links {
+    display: flex;
+    gap: 50px;
+    list-style-type: none;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+#room-info {
+    position: fixed;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border: 2px solid #333337;
 }

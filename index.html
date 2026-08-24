@@ -5,30 +5,50 @@ lowk room 103 and 104 buttons don even work idk why
 
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>GAWHS Interactive Map</title>
-    <!-- link the stylesheet -->
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <h1>Jarvis put the map here</h1>
-    <!--
-    <img src="temp map image.png"/>
-    -->
 
-    <div class="map">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GAWHS Interactive Map</title>
+  <!-- link the stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!----------------[ NAVBAR ]---------------->
+
+  <nav class="navbar">
+    <ul class="nav-links">
+      <!-- these links go nowhere rn -->
+      <li><a href="#">Home</a></li>
+      <li><a href="index.html">Map</a></li>
+      <li><a href="#">Teachers</a></li>
+      <li><a href="#">Classes</a></li>
+      <li><a href="#">Clubs</a></li>
+      <li><a href="#">Advice</a></li>
+      <li><a href="#">About</a></li>
+    </ul>
+  </nav>
+
+  <!----------------[ Main Content ]---------------->
+
+  <div class="content">
+    <div id="room-info">
+      <h2>Click a room</h2>
+      <p>Information about the room will appear here.</p>
+    </div>
+    
+    <div id="map">
       <div class="room" id="room-101">Room 101</div>
       <div class="room" id="room-102">Room 102</div>
       <div class="room" id="room-103">Room 103</div>
       <div class="room" id="room-104">Room 104</div>
     </div>
-    <div id="room-info">
-      <h2>Click a room</h2>
-      <p>Information about the room will appear here.</p>
-    </div>
+  </div>
 
-    <script src="script.js"></script>
-  </body>
+  <!----------------[ JavaScript]---------------->
+
+  <script src="script.js"></script>
+</body>
+
 </html>
