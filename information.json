@@ -1,0 +1,76 @@
+
+{
+  "D-1": {
+    "name": "D 1",
+    "type": "classroom",
+    "building": "D",
+    "description": "Mr. Blanchard's epic classroom of epicness and awesomeness. He teaches AP Psychology and IB Psychology. He is very good at teaching psychology, and makes sure the class is fun. AP Psych he has a lot of experience with, IB Psych is a new course for him but is going well.",
+    "teacher": "Mr. Blanchard",
+    "subjects": ["AP Psychology, IB Psychology"]
+  },
+  "D-4": {
+    "name": "D 4",
+    "type": "classroom",
+    "building": "D",
+    "description": "Mr. Barone's classroom of doom and despair. Insanely high workload and difficult tests. He teaches AP World History and even though the workload is deadly, it does actually pay off on the AP exam. Strict but also funny teacher.",
+    "teacher": "Mr. Barone",
+    "subjects": ["AP World History"]
+  },
+  "D-7": {
+    "name": "D 7",
+    "type": "classroom",
+    "building": "D",
+    "description": "Mr. Rogan's classroom and global horizons HQ. He teaches AP US History with a medium workload but difficult tests. Also hosts Global Horizons club on Mondays, which is the undisputed best club in the school.",
+    "teacher": "Mr. Rogan",
+    "subjects": ["AP US History"]
+  },
+  "D-8": {
+    "name": "D 8",
+    "type": "classroom",
+    "building": "D",
+    "description": "Ms. Casey's classroom, lowk super big and has hot/cold water. She teaches IB Literature and IB Philosophy. Medium-low workload, minimal tests. More of a chill teacher",
+    "teacher": "Ms. Casey",
+    "subjects": ["IB Literature, IB Philosophy"]
+  },
+  "D-10": {
+    "name": "D 10",
+    "type": "classroom",
+    "building": "D",
+    "description": "Ms. Zheng's classroom, where the magic (highlighter flipping) happens. She teaches Math 3H, AP Calculus AB, and AP Calculus BC. She gives a lot of homework but the homework is not required. Nonetheless, you have to stay locked in because her class is way harder than the AP test.",
+    "teacher": "Ms. Zheng",
+    "subjects": ["Math 3H, AP Calculus AB, AP Calculus BC"]
+  },
+  "D-13": {
+    "name": "D 13",
+    "type": "classroom",
+    "building": "D",
+    "description": "Ms. Rouw's classroom, has hot/cold water. Has better seats and tables cos of You See Bee. Medium workload, no tests. Kind of strict but definitely a passionate and quality teacher. She teaches IB Literature and IB PPS.",
+    "teacher": "Ms. Rouw",
+    "subjects": ["IB Literature, IB PPS"]
+  },
+  
+  "D-BR-1": {
+    "name": "Boys Bathroom",
+    "type": "restroom",
+    "building": "D",
+    "description": "Teachers only boys restroom. Just a heads up."
+  },
+  "D-BR-2": {
+    "name": "Boys Bathroom",
+    "type": "restroom",
+    "building": "D",
+    "description": "Boys restroom for students. Almost always extremely crowded (typically with a gang of vapers or loiterers). When it's not crowded it's closed (for vaping or bad things happening). Would not recommend."
+  },
+  "D-GR-1": {
+    "name": "Girls Bathroom",
+    "type": "restroom",
+    "building": "D",
+    "description": "Girls restroom in building D."
+  },
+  "D-GR-2": {
+    "name": "Girls Bathroom",
+    "type": "restroom",
+    "building": "D",
+    "description": "Girls restroom in building D."
+  }
+}

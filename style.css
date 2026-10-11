@@ -13,20 +13,39 @@
 }
 
 #map {
+    position: fixed;
+    top: 15%;
+    left: 10%;
     display: grid;
-    grid-template-columns: 2fr 2fr;
-    gap: 5px;
-    width: 300px;
+    grid-template-columns: repeat(5, 100px);
+    grid-template-rows: repeat(6, 100px);
+    gap: 2px;
+    width: 500px;
     margin: auto;
 }
 
 .room {
+    display: flex;
+    justify-content: center;
     border: 2px solid black;
-    padding: 40px;
-    height: 100px;
+    padding: 10px;
+    height: 100%;
+    width: 100%;
     text-align: center;
     margin: auto;
     align-items: center;
+}
+
+.restroom {
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+    padding: 10px;
+    height: 100%;
+    width: 70%;
+    text-align: center;
+    align-items: center;
+    justify-self: end;
 }
 
 .navbar {
@@ -52,10 +71,14 @@
 
 #room-info {
     position: fixed;
-    top: 15%;
-    left: 50%;
+    top: 50%;
+    left: 70%;
     transform: translate(-50%, -50%);
+    height: 70%;
+    width: 35%;
     background-color: #fff;
     padding: 20px;
     border: 2px solid #333337;
+
+    line-height: 1.5;
 }
