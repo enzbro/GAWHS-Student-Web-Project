@@ -4,7 +4,6 @@
     margin: 0;
     padding: 0;
 }
-
 .content {
     min-height: 100vh;
     display: flex;
@@ -12,7 +11,44 @@
     align-items: center;
 }
 
-#map {
+.full-screen-img {
+      /* 100% of the viewport width */
+  height: 90%;      /* 100% of the viewport height */
+  object-fit: cover;  /* Fills screen, keeps aspect ratio, crops if needed */
+  display: block;     /* Removes bottom whitespace gap */
+}
+
+.building-section {
+  position: absolute;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  background-color: rgba(255, 0, 0, 0.3); /* so we can actually see where it is*/
+}
+
+/* Adjust these percentages to match your image */
+.building-section.left {
+  left: 43.5%;
+  top: 56%;
+  width: 24%;
+  height: 14%;
+}
+
+.building-section.center {
+  left: 57.2%;
+  top: 70%;
+  width: 10%;
+  height: 10%;
+}
+
+.building-section.right {
+  left: 43.5%;
+  top: 80%;
+  width: 24%;
+  height: 14%;
+}
+
+#floor-plan {
     position: fixed;
     top: 15%;
     left: 10%;
